@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="plugins/arcticmodal/jquery.arcticmodal-0.3.css"> 
+
+	<script type="text/javascript">
+$(document).ready(function() {
+   $('a[href^="#"]').click(function () { 
+     elementClick = $(this).attr("href");
+     destination = $(elementClick).offset().top;
+     if($.browser.safari){
+       $('body').animate( { scrollTop: destination }, 1100 );
+     }else{
+       $('html').animate( { scrollTop: destination }, 1100 );
+     }
+     return false;
+   });
+ });
+</script>
+</head>
+
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<div class="main-container">
+			<img src="img/logo-1.png" class="logo" alt="*"/>
+			<div class="central">
+				<h1>Группа компаний "ЭкономистЪ"</h1>
+				<h2>НАШИ СПЕЦИАЛИСТЫ АТТЕСТОВАНЫ С 1995 ГОДА</h2>
+			</div>
+			<div class="phone">
+				<p class="call">
+					<b class="red">ЗВОНИТЕ</b>
+					с ПН по ПТ с 8-30 до 17-30
+				</p>
+				<img src="img/phone-1.png" alt="">
+				<p class="tel">
+					+7 (342) <b>210-31-82</b>
+				</p>
+				<p class="call">или</p>
+				<div class="call-btn show-callback-form">
+					<input type="hidden" name="actname" value="Обратный звонок">
+					<input type="hidden" name="act" value="form1">
+					<p>ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<nav>
+			<ul>
+				<li><a href="#maingo" class="ancLinks">ГЛАВНАЯ</a></li>
+				<li><a href="#companygo" class="ancLinks">О КОМПАНИИ</a></li>
+				<li><a href="#auditgo" class="ancLinks">АУДИТ</a></li>
+				<li><a href="#buhgo" class="ancLinks">БУХУЧЕТ</a></li>
+				<li><a href="#studygo" class="ancLinks">ОБРАЗОВАНИЕ</a></li>
+				<li><a href="#achivmentgo" class="ancLinks">НАШИ ДОСТИЖЕНИЯ</a></li>
+				<li><a href="#commandgo" class="ancLinks">КОМАНДА</a></li>
+				<li><a href="#ticketgo" class="ancLinks">ЗАЯВКА</a></li>
+
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- .header-->
+	<a name="maingo"></a>
+	<section class="section section-1" >
+		<div class="main-container">
+			
+			<div class="text-with-emblem">
+				<p>
+					<b>КАЧЕСТВО ПРОВЕРЕНО РОСФИННАДЗОРОМ РФ</b>
+				</p>
+			</div>
+			<div class="main-title">
+				<h1>
+					АУДИТОРСКИЕ УСЛУГИ, ВЕДЕНИЕ БУХГАЛТЕРСКОГО УЧЁТА,</br>
+					НАЛОГОВЫЕ КОНСУЛЬТАЦИИ
+				</h1>
+				<p>
+					<b>в интересах Вашего бизнеса в Пермском районе</b>
+				</p>
+			</div>
+			
+			<div class="four-boxes f1">
+				<p>
+					Обеспечиваем</br>
+					налоговую безопасность</br>
+					вашего бизнеса
+				</p>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="four-boxes f2">
+				<p>
+					Аудиторские проверки</br>
+					для стабильного</br>
+					и уверенного развития</br>
+					бизнеса
+				</p>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="four-boxes f3">
+				<p>
+					Организуем эффективное</br>
+					ведение бухгалтерского</br>
+					учёта предприятий</br>
+					любого масштаба
+				</p>
+			</div>
+			<div class="dashed-line"></div>
+			<div class="four-boxes f4">
+				<p>
+					Формируем надёжный</br>
+					"тыл" для процветания</br>
+					Вашего бизнеса
+				</p>
+			</div>
+			
+			<p class="RorS">
+				ВЫ РУКОВОДИТЕЛЬ ИЛИ СОБСТВЕННИК БИЗНЕСА?
+			</p>
+			
+			<div class="large-btn-2 show-callback-form">
+				<input type="hidden" name="actname" value="Получить консультацию 2">
+				<input type="hidden" name="act" value="form2">
+				<p>
+					<b>ПОЛУЧИТЬ ПРЯМО СЕЙЧАС</b><br>
+					консультацию по оптимальной системе налогооблажения<br>
+					для вашего вида деятельности
+				</p>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	<section class="section section-2">
+		<div class="main-container">
+			<h1>
+				КАК МЫ ВЕРНУЛИ<br/>
+				<strong>1 000 000</strong> РУБЛЕЙ ПЕРЕПЛАТЫ<br/>
+				ПО НАЛОГАМ ЗА 10 ДНЕЙ
+			</h1>
+			
+			<p>
+				Стоимость аудиторской проверки этого предприятия<br/>	
+				совсем небольшая - 27 тыс. руб.
+			</p>
+			<p>
+				При этом в ходе проверки удалось выявить ошибку, связанную<br/>	
+				с некорректной работой программы. Косвенные расходы не были учтены<br/>	
+				программой при формировании налоговой прибыли.
+			</p>
+			<p>
+				Счётная проверка аудиторов помогла предприятию вернуть из бюджета<br/>	
+				сумму налога на прибыль в размере 1 000 000 руб.			
+			</p>
+		</div>
+	</section>
+
+	<section class="section section-3" >
+			
+			<div class="main-container">
+			<a name="companygo"></a>
+			<h1>
+				<b>
+					Группа компаний "ЭкономистЪ"
+				</b>
+				<br/>
+				обеспечит налоговую безопасность<br/>
+				в таких ситуациях:
+			</h1>
+			
+			<div class="item-1 item-1-height-1">
+				<div class="left">
+					<div class="u">
+						<p>01</p>
+					</div>
+					<div class="d">
+						<img src="img/s3-1.jpg" alt="*"/>
+					</div>
+				</div>
+				
+				<div class="right">
+					<h2>
+						СДЕЛКИ МЕЖДУ<br/>
+						ВЗВАИМОЗАВИСИМЫМИ<br/>
+						ЛИЦАМИ
+					</h2>
+					<h3>(не обязательно контролируемые)</h3>
+					<p>
+						В связи с тем, что данные операции<br/>
+						находятся под особым контролем<br/>
+						налоговых органов, мы выявляем<br/>
+						такие сделки, анализируем цену<br/>
+						по сделкам и взаимозависимым<br/>
+						лицам на предмет её "рыночности"<br/>
+						и информируем клиента<br/>
+						при возникновении налоговых<br/>
+						рисков в этих операциях. А также<br/>
+						вырабатываем предложения<br/>
+						по снижению налоговых рисков.
+					</p>
+				</div>
+			</div>
+			
+			<div class="item-1 item-1-height-1">
+				<div class="left">
+					<div class="u">
+						<p>02</p>
+					</div>
+					<div class="d">
+						<img src="img/s3-2.jpg" alt="*"/>
+					</div>
+				</div>
+				
+				<div class="right">
+					<h2>
+						РАЗДЕЛЕНИЕ<br/>
+						БИЗНЕСА
+					</h2>
+					<p>
+						Целью такого разделения не может быть<br/>
+						только снижение налоговой нагрузки<br/>
+						(например, за счёт применения одним<br/>
+						из партнеров упрощенной системы<br/>
+						налогообложения). Такая экономия<br/>
+						уже имеет название в судебной практике:<br/>
+						"необоснованная налоговая выгода".<br/>
+						При выявлении таких случаев, мы<br/>
+						обязательно проверяем деловую цель<br/>
+						проведенных изменений (реорганизаций).<br/>
+						Цель разделения бизнеса должна быть<br/>
+						связана с коммерческими задачами,<br/>
+						получением прибыли. Мы информируем<br/>
+						клиента при возникновении налоговых<br/>
+						рисков в этих операциях и вырабатываем<br/>
+						предложения по снижению налоговых рисков.
+					</p>
+				</div>
+			</div>
+			
+			<div class="item-1 item-1-height-2">
+				<div class="left">
+					<div class="u">
+						<p>03</p>
+					</div>
+					<div class="d">
+						<img src="img/s3-3.jpg" alt="*"/>
+					</div>
+				</div>
+				
+				<div class="right">
+					<h2>
+						ПРОВЕРКА<br/>
+						"ДОБРОСОВЕСТНОСТИ"<br/>
+						КОНТРАГЕНТОВ
+					</h2>
+					<p>
+						"Добросовестность" контрагента - ключевой<br/>
+						показатель для отражения расходов для целей<br/>
+						исчесления налога на прибыль и сумм НДС,<br/>
+						принимаемых к вычету. Не проявление<br/>
+						должной осмотрительности при выборе<br/>
+						контрагента налогоплательщиком может<br/>
+						привести к доначислению налога<br/>
+						на прибыль и НДС.<br/>
+						Мы проверяем "добросовестность"<br/>
+						контрагентов клиента и получаем письменное<br/>
+						подтверждение о:<br/>
+						- Правоспособности организации и директора;<br/>
+						- Отсутствии контрагента в "черных"<br/>
+						списках фирм-однодневок;<br/>
+						- Отсутствие контрагента в списках<br/>
+						массовой регистрации;<br/>
+						И др. критериях.
+					</p>
+				</div>
+			</div>
+			
+			<div class="item-1 item-1-height-2">
+				<div class="left">
+					<div class="u">
+						<p>04</p>
+					</div>
+					<div class="d">
+						<img src="img/s3-4.jpg" alt="*"/>
+					</div>
+				</div>
+				
+				<div class="right">
+					<h2>
+						НАЛИЧИЕИ "ДЕЛОВОЙ ЦЕЛИ"<br/>
+						И "ЭКОНОМИЧЕСКОЙ<br/>
+						ОБОСНОВАННОСТИ"
+					</h2>
+					<p>
+						Наличие посредника при покупке товара<br/>
+						при том, что налогоплательщик мог<br/>
+						самостоятельно осуществить сделку может<br/>
+						быть поставлено под сомнение органами<br/>
+						ФНС России при исчислении НДС и налога<br/>
+						на прибыль. В этом случае расходы на<br/>
+						посредника могут быть поставлены под<br/>
+						сомнение при исчислении налога<br/>
+						на прибыль и НДС.<br/>
+						Отсутствие необходимого количества<br/>
+						и качества персонала и средств труда у<br/>
+						подрядчика свидетельствует о невозможности<br/>
+						подрядчиком выполнять работы(оказывать<br/>
+						услуги). В этом случае расходны на подрядчика<br/>
+						могут быть исключены для целей исчисления<br/>
+						НДС и налога на прибыль.<br/>
+						При проведении аудиторских проверок мы<br/>
+						выявляем сделки с такого рода рисками и<br/>
+						информируем клиента, одновременно<br/>
+						помогаем найти максимально безопасное<br/>
+						решение по каждой конкретной ситуации.
+
+					</p>
+				</div>
+			</div>
+			
+			<div class="large-btn-3 show-callback-form">
+				<input type="hidden" name="actname" value="Получить консультацию 3">
+				<input type="hidden" name="act" value="form3">
+				<p><b>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ПО СВОЕЙ СИТУАЦИИ</b></p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="section section-4">
+		<div class="main-container">
+			<h1>
+				Какие услуги вы получаете<br/>
+				<b>в группе компаний "ЭкономистЪ"</b>
+			</h1>
+		<div class="general  general-border-left">
+			<div class="inner-first">
+				<h1>
+					БУХГАЛТЕРСКИЙ<br/>
+					И НАЛОГОВЫЙ УЧЕТ<br/>
+					ВАШЕЙ КОМПАНИИ
+				</h1>
+				<img class="img-type1" src="img/img-4-1.png">
+				<div class="inner-btn show-callback-form">
+					<input type="hidden" name="actname" value="УЗНАТЬ СТОИМОСТЬ БУХГАЛТЕРСКИХ УСЛУГ">
+				<input type="hidden" name="act" value="form2">
+					<p><b>УЗНАТЬ СТОИМОСТЬ БУХГАЛТЕРСКИХ УСЛУГ</b></p>
+				</div>
+			</div>
+			<div class="inner-second left-line">
+				<div class="item-img">
+					<img class="first-item" src="img/s4-1.png">
+				</div>
+				<p>
+					За зарплату штатного бухгалтера на вас<br/>
+					<b>работает команда профессионалов</b>
+				</p>
+				<div class="item-img">
+					<img class="second-item" src="img/s4-2.png">
+				</div>
+				<p>
+					Вы получаете <b>бухгалтера</b><br/>
+					<b>и консультанта по налогам</b><br/>
+					<b>в одном лице</b>
+				</p>
+				<div class="item-img">
+					<img class="third-item" src="img/s4-3.png">
+				</div>
+				<p>
+					Вы оплачиваете <b>только услуги</b> бухгалтера<br/>
+					<b>(без отпусков и больничных),</b> имея<br/>
+					возможность пользоваться услугой<br/>
+					в течение всего календарного года
+				</p>
+				<div class="item-img">
+					<img class="fourth-item" src="img/s4-4.png">
+				</div>
+				<p>
+					Ответственность по гражданско-правовому<br/>
+					договору реальнее, чем по трудовому.<br/>
+					<b>Деятельность по ведению бухгалтерского</b><br/>
+					<b>учёта застрахована "Росгосстрах"</b>
+				</p>
+			</div>
+		</div>
+		
+		<div class="general general-border-right">
+			<div class="inner-second right-line">
+				<div class="item-img">
+					<img class="fifth-item" src="img/s4-5.png">
+				</div>
+				<p>
+					<b>Защита перед налоговой проверкой</b>
+				</p>
+				<div class="item-img">
+					<img class="sixth-item" src="img/s4-6.png">
+				</div>
+				<p>
+					<b>Формирование положительного имиджа</b><br/>
+					компании перед банками, органами ФНС<br/>
+					и другими контролирующими структурами
+				</p>
+				<div class="item-img">
+					<img class="seventh-item" src="img/s4-7.png">
+				</div>
+				<p>
+					Контроль соотвествия бухгалтерской (финансовой)<br/>
+					отчётности общества требованиям законодательства<br/>
+					для <b>соблюдения прав акционеров</b><br/>
+					<b>(участников) общества</b>
+				</p>
+				<div class="item-img">
+					<img class="eihth-item" src="img/s4-8.png">
+				</div>
+				<p>
+					Контроль соблюдения законодательства по<br/>
+					составлению бухгалтерской(финансовой) отчётности<br/>
+					общества<b>для предотвращения возможных </b><br/>
+					<b>злоупотреблений</b> со стороны сотрудников,<br/>
+					или иных лиц
+				</p>
+			</div>
+
+			<div class="inner-first ">
+				<h1>
+					АУДИТОРСКИЕ УСЛУГИ
+				</h1>
+				<img class="img-type2" src="img/img-4-2.png">
+				<div class="inner-btn show-callback-form">
+						<input type="hidden" name="actname" value="УЗНАТЬ СТОИМОСТЬ АУДИТОРСКИХ УСЛУГ">
+				<input type="hidden" name="act" value="form2">
+					<p><b>УЗНАТЬ СТОИМОСТЬ АУДИТОРСКИХ УСЛУГ</b></p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="section section-5">
+		<div class="main-container">
+			<h1>
+				КАК МЫ ВОССТАНОВИЛИ УЧЕТ<br/>
+				В КОМПАНИИ С ОБОРОТОМ<br/>
+				БОЛЕЕ 100 МИЛЛИОНОВ РУБЛЕЙ<br/>			
+			</h1>
+			
+			<p>
+				Восстановление учета всегда трудоёмко. В данной ситуации мы столкнулись<br/>	
+				с бухгалтерским учетом в розничной торговле. Розница характеризуется<br/>	
+				большим количеством операций, а, значит, огромным объёмом<br/>	
+				привчных документов порой с очень маленькими суммами. При этом<br/>	
+				выручка предприятия за месяц, в среднем, составляет 10 млн. руб.
+			</p>
+			
+			<p>
+				Мы это сделали!<br/>	
+				Гордимся тем, что самостоятельно создавали новые регистры налогового учета<br/>	
+				вне программного обеспечения (т.к. это было невозможно), предусматривающие<br/>	
+				все необходимые данные для целей исчисления НДС и налога на прибыль.
+			</p>
+		</div>
+	</section>
+	
+	
+	<section class="section section-6">
+		<div class="main-container">
+			
+			<h1>
+				Почему мы <b>смело называем себя экспертами</b><br/>
+				в налооблажении и бухгалтерском учете?
+			</h1>
+			
+			<div class="item-2">
+				<div class="circle p1">
+					<h2>12</h2>
+					<h3>лет</h3>
+				</div>
+				<p>
+					проводим обучение<br/>
+					бухгалтеров, юристов,<br/>
+					кадровиков
+				</p>
+			</div>
+			
+			<div class="item-2">
+				<div class="circle p1">
+					<h2>8</h2>
+					<h3>лет</h3>
+				</div>
+				<p>
+					оказываем услуги в сфере<br/>
+					бухгалтерского учета и<br/>
+					налогового консалтинга
+				</p>
+			</div>
+			
+			<div class="item-2">
+				<div class="circle p1">
+					<h2>90</h2>
+					<h3>лет</h3>
+				</div>
+				<p>
+					наш суммарный стаж<br/>
+					работы в сфере аудита<br/>
+					и бухгалтерского учета
+				</p>
+			</div>
+			
+			<div class="item-2">
+				<div class="circle p2">					
+					<h3>более</h3>
+					<h2>16 000</h2>
+				</div>
+				<p>
+					специалистов прошли<br/>
+					обучение в нашем<br/>
+					учебном центре
+				</p>
+			</div>
+			
+			<div class="item-2">
+				<div class="circle p2">
+					<h2>2 600</h2>				
+				</div>
+				<p>
+					компаний Пермского<br/>
+					региона являются нашими<br/>
+					клиентами
+				</p>
+			</div>
+			
+			<div class="item-2">
+				<div class="circle p2">
+					<h2>128 000</h2>				
+				</div>
+				<p>
+					документов создаем<br/>
+					и проверяем<br/>
+					ежемесячно
+				</p>
+			</div>
+			
+			<div class="large-btn-3 more-width margin-top25 show-callback-form">
+				<input type="hidden" name="actname" value="ПОЛУЧИТЬ ПОЛНОЕ РАСПИСАНИЕ ЗАНЯТИЙ УЧЕБНОГО ЦЕНТРА">
+					<input type="hidden" name="act" value="form7">
+				<p><b>ПОЛУЧИТЬ ПОЛНОЕ РАСПИСАНИЕ ЗАНЯТИЙ УЧЕБНОГО ЦЕНТРА</b></p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="section section-7">
+		<div class="main-container">
+		<a name="achivmentgo"></a>
+			<h1>
+				КЛИЕНТЫ, КОТОРЫЕ <b>ДОВЕРЯЮТ НАМ</b><br/>
+				УЖЕ НЕСКОЛЬКО ЛЕТ
+			</h1>
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-1.png" class="item-3-1"  alt="*"/>
+					</div>
+					<p>
+						ОАО<br/>
+						"Россикйский институт<br/>
+						титана и магния"<br/>
+						(ОАО РИТМ),<br/>
+						г.Березники
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-2.png" class="item-3-2"  alt="*"/>
+					</div>
+					<p>
+						ООО<br/>
+						Ювелирный магазин<br/>
+						"Аметист"<br/>
+						г. Пермь
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-3.png" class="item-3-3"  alt="*"/>
+					</div>
+					<p>
+						ЗАО<br/>
+						"Энергосервис"<br/>						
+						г.Пермь
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-4.png" class="item-3-4"  alt="*"/>
+					</div>
+					<p>
+						СНИБ<br/>
+						"Эльбрус"<br/>
+						г. Пермь
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-5.png" class="item-3-5"  alt="*"/>
+					</div>
+					<p>
+						ПМП<br/>
+						"Курьер"<br/>
+						г. Пермь
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-6.png" class="item-3-6" alt="*"/>
+					</div>
+					<p>
+						Пермская торгово-<br/>
+						промышленная<br/>
+						палата
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-7.png" class="item-3-7"  alt="*"/>
+					</div>
+					<p>
+						ООО<br/>
+						"Стройтрубопроводсервис"<br/>
+						г. Пермь
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-8.png" class="item-3-8"  alt="*"/>
+					</div>
+					<p>
+						АНО<br/>
+						"Институт развития<br/>
+						современных"<br/>
+						образовательных<br/>
+						технологий"<br/>
+						г.Москва
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-9.png" class="item-3-9"  alt="*"/>
+					</div>
+					<p>
+						ICFM, Институт<br/>
+						сертифицированных<br/>
+						финансовых менеджеров<br/>
+						(Великобритания)						
+					</p>
+				</div>
+				
+				<div class="item-3">
+					<div class="ellips">
+						<img src="img/s7-10.png" class="item-3-10"  alt="*"/>
+					</div>
+					<p>
+						Ассоциация "Институт<br/>
+						профессиональных<br/>
+						бухгалтеров<br/>
+						и аудиторов"<br/>
+						г.Москва
+					</p>
+				</div>
+			
+		</div>
+	</section>
+	
+	
+	
+	<section class="section section-8">
+		<div class="main-container">
+			<h1>
+				КАК МЫ ПОМОГЛИ КЛИЕНТУ<br/>	
+				ВЫИГРАТЬ СУД ПО ДОСТОВРЕНОСТИ<br/>	
+				БУХГАЛТЕРСКОЙ ОТЧЕТНОСТИ			
+			</h1>
+			
+			<p>
+				Судебное разбирательство, предметом которого является достоверность<br/>	
+				бухгалтерской отчетности - крайне редкий случай. Этот суд был именно таким.<br/>	
+				Оппонент нашего клиента пригласил в суд уважаемых экспертов в области<br/>	
+				бухгалтерского учета и мы на нескольких заседаниях суда обсуждали правильность<br/>	
+				отражения в балансе компании счета 86 "Целевое финансирование".
+			</p>
+			
+			<p>
+				Мы победили!<br/>	
+				Выданное нашей организацией аудиторское заключение не было поставлено<br/>	
+				судьей под сомнение! Бухгалтерская экспертиза не назначена судом,<br/>	
+				что явилось потверждением доверия суда к нашему мнению, выраженному<br/>	
+				в аудиторском заключении!
+			</p>
+		</div>
+	</section>
+	
+	<section class="section section-9">
+		<div class="main-container">
+			<div class="title-9">
+				<h1>
+					МЫ ВСЕГДА С РАДОСТЬЮ</br>
+					ДЕЛИМСЯ С ВАМИ</br>
+					СВОИМИ ЗНАНИЯМИ И ОПЫТОМ
+				</h1>
+			</div>
+			<div class="parag-9">
+				<p>
+					<b>АНО ДПО УЧЕБНЫЙ ЦЕНТР</b></br>
+					<b>"ЭКОНОМИСТЪ"</b>
+				</p>
+			</div>
+			<div class="small-parag-9">
+				<p>
+					№1 в Пермском крае</br>
+					ПО ЧИСЛУ ПРЕДЛАГАЕМЫХ ПРОГРАММ ОБУЧЕНИЯ
+				</p>
+			</div>
+			
+			<div class="cheet-wrapper">
+				<div class="three-points point-1">
+					<p>
+						<b>БУХГАЛТЕРАМ</b>
+					</p>
+					<hr>
+				</div>
+				<div class="three-points point-2">
+					<p>
+						<b>ЮРИСТАМ</b>
+					</p>
+					<hr>
+				</div>
+				<div class="three-points point-3">
+					<p>
+						<b>КАДРОВИКАМ</b>
+					</p>
+					<hr>
+				</div>
+			</div>
+			
+			<ul class="bxslider  bxslider-3">
+			    <li>
+					<img src="img/slide-1.jpg" />
+					<img src="img/slide-2.jpg" />
+					<img src="img/slide-3.jpg" />
+				</li>
+				 <li>
+					<img src="img/slide-1.jpg" />
+					<img src="img/slide-2.jpg" />
+					<img src="img/slide-3.jpg" />
+				</li>
+				 <li>
+					<img src="img/slide-1.jpg" />
+					<img src="img/slide-2.jpg" />
+					<img src="img/slide-3.jpg" />
+				</li>
+				 <li>
+					<img src="img/slide-1.jpg" />
+					<img src="img/slide-2.jpg" />
+					<img src="img/slide-3.jpg" />
+				</li>
+			</ul>
+			
+		</div>
+	</section>
+	
+	
+	<section class="section section-12">
+	
+		<div class="main-left">
+			
+		</div>
+		
+		<div class="main-right">
+			<p>
+				НА СЕМИНАРЫ НАШЕГО<BR>
+				УЧЕБНОГО ЦЕНТРА
+			</p>
+			
+			<p>
+				достаточно заказать<br>
+				аудит вашей компании
+			</p>
+		</div>
+	</section>
+	
+	<section class="section section-11">
+		<div class="main-container">
+			<div class="large-btn show-callback-form">
+				<input type="hidden" name="actname" value="ПОЛУЧИТЬ ПОЛНОЕ РАСПИСАНИЕ ЗАНЯТИЙ УЧЕБНОГО ЦЕНТРА 2">
+					<input type="hidden" name="act" value="form7">
+				<p><b>ПОЛУЧИТЬ ПОЛНОЕ РАСПИСАНИЕ ЗАНЯТИЙ УЧЕБНОГО ЦЕНТРА</b></p>
+			</div>
+		</div>
+	</section>	
+	
+	<section class="section section-14">
+		<div class="main-container">
+			<h1>
+				Лицензии, свидетельства,<br>
+				благодарственные письма нашей компании
+			</h1>
+			<img src="img/gram-1.jpg" alt="*">
+			<img src="img/gram-2.jpg" alt="*">
+			<img src="img/gram-3.jpg" alt="*">
+			<img src="img/gram-4.jpg" alt="*">
+			<img src="img/gram-5.jpg" alt="*">
+			<img src="img/gram-6.jpg" alt="*">
+			<hr>
+			<h1>Награды, успехи, достижения</h1>
+			<img src="img/lic-1.jpg" alt="*">
+			<img src="img/lic-2.jpg" alt="*">
+			<img src="img/lic-3.jpg" alt="*">
+		</div>
+	</section>
+	
+	<section class="section section-13">
+		<div class="main-container">
+			<a name="commandgo"></a>
+			<h1>
+				Кто обеспечивает<br/>
+				вашу налоговую безопасность и соблюдение<br/>
+				стандартов отчетности?
+			</h1>
+			<div class="wrapper-13">
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-1.jpg">
+				<h2>
+					<b>БОГОМОЛОВА</b><br/>
+					Елена Михайловна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Генеральный</i><br/>
+					<i>директор</i>
+				</p>
+				<hr>
+				<p>
+					Аттестат аудитора<br/>
+					с 1995 года.
+				</p>
+			</div>
+				
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-2.jpg">
+				<h2>
+					<b>ПЕРИНА</b><br/>
+					Алла Федоровна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Исполнительный директор</i>
+				</p>
+				<hr>
+				<p>
+					С 2003 года руководит<br/>
+					направлением<br/>
+					образовательной<br/>
+					деятельности.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-3.jpg">
+				<h2>
+					<b>СУРОВЦЕВА</b><br/>
+					Ирина Геннадьевна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Руководитель отдела</i><br/>
+					<i>бухгалтерского</i><br/>
+					<i>аутсортинга</i>
+					
+				</p>
+				<hr>
+				<p>
+					Консультирует<br/>
+					по оптимальному<br/>
+					налогообложению.<br/>
+					Имеет аттестат ДипИФР<br/>
+					по МСФО.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-4.jpg">
+				<h2>
+					<b>БОЛОТОВА</b><br/>
+					Мария Александровна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Ведущий специалист</i><br/>
+					<i>отдела бухгалтерского</i><br/>
+					<i>аутсортинга</i>
+					
+				</p>
+				<hr>
+				<p>
+					Имеет аттестат<br/>
+					профессионального<br/>
+					бухгалтера.<br/>
+					ИБП Росии.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-5.jpg">
+				<h2>
+					<b>ПОДВОЗНЫХ</b><br/>
+					Инна Сергеевна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Ведущий аудитор</i>				
+				</p>
+				<hr>
+				<p>
+					Опыт работы<br/>
+					по самостоятельному<br/>
+					проведению проверок<br/>
+					и работы в команде.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-6.jpg">
+				<h2>
+					<b>ХОХЛОВА</b> Светлана <br/>
+					Валентиновна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Ведущий аудитор</i>				
+				</p>
+				<hr>
+				<p>
+					Опыт работы по<br/>
+					самостоятельному<br/>
+					проведению проверок<br/>
+					и работы в команде.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-7.jpg">
+				<h2>
+					<b>КАЛЯКИНА</b><br/>
+					Ольга Владимировна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Аудитор</i>				
+				</p>
+				<hr>
+				<p>
+					Закончила Уральский<br/>
+					аграрный университет<br/>
+					с отличием по<br/>
+					специальности<br/>
+					"Бухгалтерский учёт<br/>
+					и аудит". Глубоко<br/>
+					вникает в каждую<br/>
+					поставленную задачу.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-8.jpg">
+				<h2>
+					<b>ПЕТУХОВА</b><br/>
+					Наталья Анатольевна<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Руководитель</i><br/>
+					<i>отдела продаж</i>					
+				</p>
+				<hr>
+				<p>
+					Привлекает<br/>
+					самые амбициозные<br/>
+					проекты компании.<br/>
+					Работает с ключевыми<br/>
+					клиентами.
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-9.jpg">
+				<h2>
+					<b>КУДЫМОВА</b><br/>
+					Марина<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Специалист отдела</i><br/>
+					<i>бухгалтерского учёта</i>					
+				</p>
+				<hr>
+				<p>
+					Специализация - <br/>
+					успешное ведение<br/>
+					бухгалтерского учёта.<br/>
+					ТСЖ и не только...
+				</p>
+			</div>
+			
+			<div class="item-4">
+				<img class="item-4-img" src="img/photo-10.jpg">
+				<h2>
+					<b>НАУМОВА</b><br/>
+					Вера<br/>
+				</h2>
+				<hr>
+				<p>
+					<i>Специалист отдела</i><br/>
+					<i>бухгалтерского учёта</i>					
+				</p>
+				<hr>
+				<p>
+					Ведёт учёт<br/>
+					торговых организаций,<br/>
+					регистрирует<br/>
+					предприятия.
+				</p>
+			</div>
+			
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section class="section section-15">
+		<div class="main-container">
+			<p>и еще 12 специалистов высокого класса</p>
+		</div>
+	</section>
+	
+	<section class="section section-16">
+		<div class="main-container">
+			
+		</div>
+	</section>
+	
+	<section class="section section-17">
+		<div class="main-container">
+			
+			<a name="ticketgo"></a>
+			<div class="large-btn show-callback-form">
+				<input type="hidden" name="actname" value="ЗАДАЙ СВОЙ ВОПРОС СПЕЦИАЛИСТУ ПРЯМО СЕЙЧАС">
+				<input type="hidden" name="act" value="form10">
+				<p><b>ЗАДАЙ СВОЙ ВОПРОС СПЕЦИАЛИСТУ ПРЯМО СЕЙЧАС</b></p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="section section-18">
+		<div class="main-left">
+			<p>
+				<b>
+					ЗАХОДИТЕ К НАМ В ОФИС<br>
+					за консультацией или<br>
+					услугами по аудиторским<br>
+					проверкам, ведению<br>
+					бухгалтерского учета!
+				</b>
+			</p>
+		</div>
+		
+		<div class="main-right">
+			<div class="item">
+				<img src="img/s19-2.png" alt="*">
+				<p>
+					с понедельника<br>
+					по пятницу<br>
+					с 8:30 до 17:30
+				<p>
+			</div>
+			<hr>
+			<div class="item">
+				<img src="img/s19-1.png" alt="*">
+				<p>
+					с понедельника<br>
+					по пятницу<br>
+					с 8:30 до 17:30
+				<p>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="section section-19">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2113.4074434699887!2d56.25710131613689!3d58.01480122275317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e8c6da9efe24fb%3A0xc44a1f1666cc1c7a!2z0JXQutCw0YLQtdGA0LjQvdC40L3RgdC60LDRjyDRg9C7LiwgMjQsINCf0LXRgNC80YwsINCf0LXRgNC80YHQutC40Lkg0LrRgNCw0LksINCg0L7RgdGB0LjRjywgNjE0MDQ1!5e0!3m2!1sru!2sua!4v1444946600847" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+	
+	<footer class="footer">
+		<div class="main-container">
+			<img src="img/logo-2.png" class="logo" alt="*"/>
+			<div class="central-2">
+				<h1>Группа компаний "ЭкономистЪ"</h1>
+				<h2>НАШИ СПЕЦИАЛИСТЫ АТТЕСТОВАНЫ С 1995 ГОДА</h2>
+			</div>
+			<div class="phone footer-phone">
+				<p class="call">
+					<b class="red">ЗВОНИТЕ</b>
+					с ПН по ПТ с 8-30 до 17-30
+				</p>
+				<img src="img/phone-1.png" alt="">
+				<p class="tel">
+					+7 (342) <b>210-31-82</b>
+				</p>
+				<p class="call">или</p>
+				<div class="call-btn show-callback-form">
+					<input type="hidden" name="actname" value="ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК в футере">
+				<input type="hidden" name="act" value="form1">
+					<p>ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="red-line">
+		</div>
+	</footer>
+	
+	 <section class="hide-shadow-box">
+		<div class="callback-form box-modal" id = "mail-me-modal">			
+			<form id="form-template2">
+				<h1></h1>
+				<p>
+                
+				</p>
+                <input type="hidden" name="prevactname" value="">
+                <input type="hidden" name="prevact" value="">
+                
+                <input type="hidden" name="act" value="mail_form">
+                
+                
+                <label for="name-form">Ваше имя</label>
+				<input id="name-form" type="name" value="" name="name" placeholder="Введите ваше имя">
+				<label for="tel-form">Ваш телефон</label>
+				<input id="tel-form" type="tel" value="" name="tel" placeholder="Введите ваш № телефона">
+				<label for="email-form">Ваш e-mail</label>
+				<input id="email-form" type="email" value="" name="email" placeholder="Введите ваш e-mail">
+				<button type="submit" name="send_email" class="send-email">ОСТАВИТЬ ЗАЯВКУ</button>
+				<a href="#">Политика конфиденциальности</a>
+			</form>
+		  <div class="box-modal_close arcticmodal-close close"></div>
+		</div>	
+	</section>
+    
+    <section class="hide-shadow-box">
+		<div class="callback-form box-modal" id = "call-me-modal">			
+			<form id="form-template1">
+				<h1></h1>
+				<p>
+                
+				</p>
+                <input type="hidden" name="prevactname" value="">
+                <input type="hidden" name="prevact" value="">
+                
+                <input type="hidden" name="act" value="recall_me_form">
+                
+                <label for="name-form">Ваше имя</label>
+				<input id="name-form" type="name" value="" name="name" placeholder="Введите ваше имя">
+				<label for="tel-form">Ваш телефон</label>
+				<input id="tel-form" type="tel" value="" name="tel" placeholder="Введите ваш № телефона">
+                <button type="submit" name="send_tel" class="send-tel">ОСТАВИТЬ ЗАЯВКУ</button>
+				<a href="#">Политика конфиденциальности</a>
+			</form>
+		  <div class="box-modal_close arcticmodal-close close"></div>
+		</div>	
+	</section>
+    
+    <section class="hide-shadow-box">
+	<div class="box-modal" id = "application_accept_modal">			
+			<h1>Спасибо за заявку!</h1>
+            <br>
+            <p>наш специалист свяжется с вами в течении часа<br>и ответит на все интересующие вас вопросы</p>
+		  <div class="box-modal_close arcticmodal-close close"></div>
+	</div>	
+    </section>
+    
+     <section class="hide-shadow-box">
+	<div class="box-modal" id="politic">			
+            <div class="title">политика защиты персональной <br>информации пользователей сайта</div>
+						<div class="desc">Мы ценим и уважаем гостей данного сайта и наших потенциальных клиентов, <br>именно поэтому создали политику защиты персональной информации Пользователей сайта.</div>
+						<ul>
+							<li>1. Общие условия
+								<ul>
+									<li>1.1. Настоящая политика определяет порядок обработки и защиты Обществом с Ограниченной Ответственностью «Коллегия Маркетологов» (сокращенное название – ООО «КМ» информации о физических лицах (далее – Пользователи), которая может быть получена ООО «КМ» при использовании Пользователем услуг предоставляемых посредством сайтов, сервисов, служб, программ ООО «КМ» (далее – сайт, сервисы).</li>
+									<li>1.2. Целью настоящей политики является обеспечение надлежащей защиты информации о Пользователях, в том числе их персональных данных, от несанкционированного доступа и разглашения.</li>
+									<li>1.3. Отношения, связанные со сбором, хранением, распространением и защитой информации предоставляемой Пользователем, регулируются настоящей Политикой и дейтсвующим законодательством Российской Федерации.</li>
+									<li>1.4. Регистрируясь на Сайте и использую Сайт и Сервисы ООО «КМ» на доменах: http://marketingcentr.ru/ ;  http://reklamaaudit.ru/ , а так же на субдоменах ООО «КМ» Пользователь выражает свое полное согласие с условиями настоящей Политики.</li>
+									<li>1.5. В случае несогласия Пользователя с условиями настоящей Политики использование сайта, сервисов и программ ООО «КМ» использование должно быть немедленно прекращено.</li>
+								</ul>
+							</li>
+							<li>2. Цели сбора, обработки и хранения информации предоставляемой Пользователями Сайта.
+								<ul>
+									<li>2.1. Обработка персональных данных Пользователя осуществляется в соответствии с законодательством Российской Федерации. ООО «КМ» обрабатывает персональные данные Пользователя в целях:
+										<ul>
+											<li>- идентификации в рамках соглашений, договоров и консультаций с ООО «КМ» и Пользователями Сайта.</li>
+											<li>- предоставления Пользователю услуг, описанных на Сайтах ООО «КМ»</li>
+											<li>- проверки, исследования и анализа данных, позволяющих поддерживать и улучшать сервисы и разделы Сайта, а так же разрабатывать новые сервисы и разделы Сайта</li>
+											<li>- проведения статистический и иных исследований на основе обезличенных данных </li>
+											<li>- обратной связи с Пользователеми Сайта, информировании о новых акциях, услугах, продуктах, сервисах, программ, сайтах, розыгрышей ООО «КМ»</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>3. Условия обработки персональной информации предоставленной Пользователем и ее передачи третьим лицам
+								<ul>
+									<li>3.1. ООО «КМ» принимает все необходимые меры для защиты персональных данных Пользователя от неправомерного доступа, изменения, раскрытия или уничтожения.</li>
+									<li>3.2. ООО «КМ» имеет право на предоставление персональных данных Пользователей Сайта и Сервисов только работникам, подрядчикам и аффилированным лицам которым информация необходима для взаимодействия с Пользователем, обеспечения функционирования Сайта, Сервисов и услуг Пользователю.</li>
+									<li>3.3. ООО «КМ» вправе использовать предоставленную Пользователем информацию, в том числе персональные данные, в целях обеспечения соблюдения требований действующего законодательства Российской Федерации (в том числе в целях предупреждения и/или пресечения незаконных и/или противоправных действий Пользователей). Раскрытие предоставленной Пользователем информации может быть произведено лишь в соответствии с действующим законодательством Российской Федерации по требованию суда, правоохранительных органов, а равно в иных предусмотренных законодательством Российской Федерации случаях.</li>
+								</ul>
+							</li>
+							<li>4. Условия пользования Сайтом, Сервисами и Программами.
+								<ul>
+									<li>4.1. Пользователь при пользовании Сайтом, подтверждает, что:
+										<ul>
+											<li>- обладает всеми необходимыми правами, позволяющими ему осуществлять регистрацию и использовать Услуги Сайта.</li>
+											<li>- указывает достоверную информацию о себе в объемах, необходимых для пользования Услугами Сайта, обязательные для заполнения поля для дальнейшего предоставления Услуг сайта помечены специальным образом, вся иная информация предоставляется пользователем по его собственному усмотрению.</li>
+											<li>- ознакомлен с настоящей Политикой, выражает свое согласие с ней и принимает на себя указанные в ней права и обязанности. Ознакомление с условиями настоящей Политики и проставление галочки под ссылкой на данную Политику является письменным согласием Пользователя на сбор, хранение, обработку и передачу третьим лицам персональных данных предоставляемых Пользователем.</li>
+										</ul>
+									</li>
+									<li>4.2. ООО «КМ» не проверяет достоверность получаемой (собираемой) информации о Пользователях, за исключением случаев, когда такая проверка необходима в целях  исполнения обязательств перед пользователем.</li>
+								</ul>
+							</li>
+							<li>5. В рамках настоящей Политики под «персональной информации Пользователя» понимаются:
+								<ul>
+									<li>5.1. Данные предоставленные Пользователем самостоятельно при пользовании Сайтом, Сервисами включая но, не ограничиваясь: имя, фамилия, пол, номер мобильного телефона и/или адрес электронной почты, семейное положение, дата рождения, родной город, родственные связи, домашний адрес, информация об образовании, о роде деятельности.</li>
+									<li>5.2. Данные, которые автоматически передаются Сервисам в процессе их использования с помощью установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, информация из cookie, информация о браузере пользователя (или иной программе, с помощью которой осуществляется доступ к Сервисам), время доступа, адрес запрашиваемой страницы.</li>
+									<li>5.3. Иная информация о Пользователе, сбор и/или предоставление которой определено в Регулирующих документах отдельных Сервисов ООО «Коллегия Маркетологов».</li>
+								</ul>
+							</li>
+							<li>6. Изменение Политики конфиденциальности. Применимое законодательство
+								<ul>
+								<li>6.1. ООО «Коллегия Маркетологов» имеет право вносить изменения в настоящую Политику конфиденциальности. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Политики. Действующая редакция всегда находится на странице по адресу http://marketingcentr.ru .</li>
+								<li>6.2. К настоящей Политике и отношениям между Пользователем и ООО « » возникающим в связи с применением Политики конфиденциальности, подлежит применению право Российской Федерации.</li>
+								</ul>
+							</li>
+							<li>7. Обратная связь. Вопросы и предложения.
+								<ul>
+									<li>7.1. Все имеющиеся у вас вопросы, предложения по поводу настоящей Политики следует сообщать в Службу поддержки ООО «КМ» по адресу электронной почты support@marketingcentr.ru или на наш почтовый адрес: 614087, г.Пермь, улица Куйбышева 95-б (Бизнес Центр «Grenn Plaza»), 14 этаж, офис 14-01 (по указателям Коллегия Маркетологов)</li>
+								</ul>
+							</li>
+						</ul>
+
+            
+		  <div class="box-modal_close arcticmodal-close close"></div>
+		</div>	
+	</section>
+</div><!-- .wrapper -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter31256038 = new Ya.Metrika({
+                    id:31256038,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/31256038" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<!-- JQuery -->
+<script src="js/jquery-2.1.4.min.js"></script>	
+<!-- arcticModal -->
+<script src="plugins/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+<!-- bxSlider -->
+<script src="plugins/bxslider/jquery.bxslider.js"></script>
+<!-- bxSlider -->
+<script src="plugins/maskedinput.js"></script>
+<!-- script -->
+<script src="js/script.js"></script>
+
+<script>
+
+</script>
+
+</body>
+</html>
