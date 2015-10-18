@@ -5,6 +5,7 @@ var mailModal;
 var mailForm;
 
 var politicModal;
+var grammModal;
 
 var bottomMailForm;
 function validatePhone(fld) {
@@ -60,34 +61,41 @@ function validateEmail(fld) {
 
 
 $(document).ready(function(){
-	  		
+		grammModal = $("#display_gramm_modal");
+		
+	  	$('.section-14 img').click(function(){
+			var imgSrc = 'img/'+$(this).attr('id')+'.jpg';
+			grammModal.find('img').attr({"src":imgSrc});
+			grammModal.arcticmodal();
+		});
+		
 		$(window).scroll(function(){
 			var h = $(window).scrollTop();
-			$('nav ul li:nth-of-type(1)').removeClass('i1');
-			$('nav ul li:nth-of-type(2)').removeClass('i2');
-			$('nav ul li:nth-of-type(3)').removeClass('i3');
-			$('nav ul li:nth-of-type(4)').removeClass('i4');
-			$('nav ul li:nth-of-type(5)').removeClass('i5');
-			$('nav ul li:nth-of-type(6)').removeClass('i6');
-			$('nav ul li:nth-of-type(7)').removeClass('i7');
-			$('nav ul li:nth-of-type(8)').removeClass('i8');
+			$('nav ul li:nth-of-type(1) a').removeClass('i1');
+			$('nav ul li:nth-of-type(2) a').removeClass('i2');
+			$('nav ul li:nth-of-type(3) a').removeClass('i3');
+			$('nav ul li:nth-of-type(4) a').removeClass('i4');
+			$('nav ul li:nth-of-type(5) a').removeClass('i5');
+			$('nav ul li:nth-of-type(6) a').removeClass('i6');
+			$('nav ul li:nth-of-type(7) a').removeClass('i7');
+			//$('nav ul li:nth-of-type(8) a').removeClass('i8');
 			
 			if (h >= 0 && h < 1000)			
-				$('nav ul li:nth-of-type(1)').addClass('i1');
+				$('nav ul li:nth-of-type(1) a').addClass('i1');
 			if (h >= 1000 && h < 2600)	
-				$('nav ul li:nth-of-type(2)').addClass('i2');
+				$('nav ul li:nth-of-type(2) a').addClass('i2');
 			if (h >= 2600 && h < 3800)	
-				$('nav ul li:nth-of-type(3)').addClass('i3');
+				$('nav ul li:nth-of-type(3) a').addClass('i3');
 			if (h >= 3800 && h < 6000)	
-				$('nav ul li:nth-of-type(4)').addClass('i4');
+				$('nav ul li:nth-of-type(4) a').addClass('i4');
 			if (h >= 6000 && h < 7500)
-				$('nav ul li:nth-of-type(5)').addClass('i5');
+				$('nav ul li:nth-of-type(5) a').addClass('i5');
 			if (h >= 7500 && h < 9100)
-				$('nav ul li:nth-of-type(6)').addClass('i6');		
-			if (h >= 9100 && h < 10500)
-				$('nav ul li:nth-of-type(7)').addClass('i7');	
-			if (h >= 10500 && h < 12000)
-				$('nav ul li:nth-of-type(8)').addClass('i8');	
+				$('nav ul li:nth-of-type(6) a').addClass('i6');		
+			if (h >= 9100 && h < 12000)
+				$('nav ul li:nth-of-type(7) a').addClass('i7');	
+			//if (h >= 10500 && h < 12000)
+			//	$('nav ul li:nth-of-type(8) a').addClass('i8');	
 			//$('header').html(h);
 			if (h>=130)
 				$('nav').addClass("menu-fixed");
@@ -102,6 +110,7 @@ $(document).ready(function(){
 	mailForm = $('#form-template2');
 	
 	politicModal = $("#politic");
+	
 	
 	$('.bxslider').bxSlider();	
 	$("input[name=tel]").mask("+7 (999) 999-9999");
@@ -138,7 +147,7 @@ $(document).ready(function(){
 		mailModal.find("#email-form").css({'border' : '1px #CCCCCC solid'});
 	
 		
-		if(prevAction === "form1" || prevAction === "form13")
+		if(prevAction === "form1" || prevAction === "form13" || prevAction === "form-menu")
 		{
 			$('#form-template1 h1').text('ВВЕДИТЕ ВАШ № ТЕЛЕФОНА');
 			$('#form-template1 p').html('мы перезвоним вам в течении часа <br> и ответим на все интересующие вас вопросы');

@@ -160,7 +160,7 @@ nav ul li{
 .i6:after,
 .i7:after,
 .i8:after,
-nav ul li:hover:after{
+nav ul li:hover a:after {
 	content:'';
 	width:10px;
 	height:37px;
@@ -171,44 +171,44 @@ nav ul li:hover:after{
 	margin-top:-10px;
 }
 .i1:after,
-nav ul li:nth-of-type(1):hover:after{	margin-left:-31px;	margin-top:-11px;}
+nav ul li:nth-of-type(1):hover a:after{	margin-left:-31px;	margin-top:-11px;}
 .i1:before,
-nav ul li:nth-of-type(1):hover:before{	margin-left:24px;	margin-top:15px;}
+nav ul li:nth-of-type(1):hover a:before{	margin-left:24px;	margin-top:15px;}
 
 .i2:after,
-nav ul li:nth-of-type(2):hover:after{	margin-left:-44px;	margin-top:-11px;}
+nav ul li:nth-of-type(2):hover a:after{	margin-left:-44px;	margin-top:-11px;}
 .i2:before,
-nav ul li:nth-of-type(2):hover:before{	margin-left:40px;	margin-top:15px;}
+nav ul li:nth-of-type(2):hover a:before{	margin-left:40px;	margin-top:15px;}
 
 .i3:after,
-nav ul li:nth-of-type(3):hover:after{	margin-left:-25px;	margin-top:-11px;}
+nav ul li:nth-of-type(3):hover a:after{	margin-left:-25px;	margin-top:-11px;}
 .i3:before,
-nav ul li:nth-of-type(3):hover:before{	margin-left:14px;	margin-top:15px;}
+nav ul li:nth-of-type(3):hover a:before{	margin-left:14px;	margin-top:15px;}
 
 .i4:after,
-nav ul li:nth-of-type(4):hover:after{	margin-left:-31px;	margin-top:-11px;}
+nav ul li:nth-of-type(4):hover a:after{	margin-left:-31px;	margin-top:-11px;}
 .i4:before,
-nav ul li:nth-of-type(4):hover:before{	margin-left:24px;	margin-top:15px;}
+nav ul li:nth-of-type(4):hover a:before{	margin-left:24px;	margin-top:15px;}
 
 .i5:after,
-nav ul li:nth-of-type(5):hover:after{	margin-left:-51px;	margin-top:-11px;}
+nav ul li:nth-of-type(5):hover a:after{	margin-left:-51px;	margin-top:-11px;}
 .i5:before,
-nav ul li:nth-of-type(5):hover:before{	margin-left:40px;	margin-top:15px;}
+nav ul li:nth-of-type(5):hover a:before{	margin-left:40px;	margin-top:15px;}
 
 .i6:after,
-nav ul li:nth-of-type(6):hover:after{	margin-left:-74px;	margin-top:-11px;}
+nav ul li:nth-of-type(6):hover a:after{	margin-left:-74px;	margin-top:-11px;}
 .i6:before,
-nav ul li:nth-of-type(6):hover:before{	margin-left:54px;	margin-top:15px;}
+nav ul li:nth-of-type(6):hover a:before{	margin-left:54px;	margin-top:15px;}
 
 .i7:after,
-nav ul li:nth-of-type(7):hover:after{	margin-left:-37px;	margin-top:-11px;}
+nav ul li:nth-of-type(7):hover a:after{	margin-left:-37px;	margin-top:-11px;}
 .i7:before,
-nav ul li:nth-of-type(7):hover:before{	margin-left:24px;	margin-top:15px;}
+nav ul li:nth-of-type(7):hover a:before{	margin-left:24px;	margin-top:15px;}
 
 .i8:after,
-nav ul li:nth-of-type(8):hover:after{	margin-left:-21px;	margin-top:-11px;}
+nav ul li:nth-of-type(8):hover a:after{	margin-left:20px;	margin-top:-28px;}
 .i8:before,
-nav ul li:nth-of-type(8):hover:before{	margin-left:24px;	margin-top:15px;}
+nav ul li:nth-of-type(8):hover a:before{	margin-left:24px;	margin-top:15px;}
 
 nav ul li a{
 	text-decoration:none;
@@ -1302,10 +1302,12 @@ nav ul li a{
 	transition:.5s;
 }
 
+
 .section-14 img:hover {
 	transform:scale(1.01,1.01);
 	transition:.5s;
 }
+
 
 .section-14 hr {
 	border:none;
@@ -1528,6 +1530,19 @@ nav ul li a{
 
 
 --------------------------------------------------------*/
+#display_gramm_modal
+{
+	padding: 55px;
+	background-color:rgba(255,255,255,1.00);
+	width:1000px;
+	height:1250px;	
+	position:relative;
+}
+
+#display_gramm_modal img {
+	width:1000px;
+	height:1250px;
+}
 
 #politic
 {
