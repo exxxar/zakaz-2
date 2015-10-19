@@ -99,6 +99,7 @@ i
 .header 
 {
 	height: 150px;
+	max-height:150px;
 	width:100%;
 	background:#fff;
 	//
@@ -108,7 +109,15 @@ i
 .logo {
 	position:absolute;
 	z-index:1000;
-	top:33px;
+	margin-top:33px;
+	left:0;
+}
+
+.logo-2 {
+	position:absolute;
+	z-index:1000;
+	margin-top:53px;
+	margin-left:490px;
 }
 
 
@@ -132,6 +141,8 @@ nav ul {
 
 nav ul li{
 	float:left;
+	height:18px;
+	//border:1px green solid;
 	padding:9px 11px 8px 11px;
 }
 
@@ -160,6 +171,7 @@ nav ul li{
 .i6:after,
 .i7:after,
 .i8:after,
+.call-btn-2 :hover:after,
 nav ul li:hover a:after {
 	content:'';
 	width:10px;
@@ -167,7 +179,7 @@ nav ul li:hover a:after {
 	background: url('img/triangle-full.png') center no-repeat;
 	background-size:cover;
 	position:absolute;
-	margin-left:-50px;
+	margin-left:-30px;
 	margin-top:-10px;
 }
 .i1:after,
@@ -205,11 +217,24 @@ nav ul li:nth-of-type(7):hover a:after{	margin-left:-37px;	margin-top:-11px;}
 .i7:before,
 nav ul li:nth-of-type(7):hover a:before{	margin-left:24px;	margin-top:15px;}
 
-.i8:after,
-nav ul li:nth-of-type(8):hover a:after{	margin-left:20px;	margin-top:-28px;}
-.i8:before,
-nav ul li:nth-of-type(8):hover a:before{	margin-left:24px;	margin-top:15px;}
 
+.i8:after,
+nav ul li:nth-of-type(8):hover a:after{
+	width:10px;
+	height:35px;
+	background-size:contain;
+	left:20px;
+	margin-top:-27px;
+	
+}
+
+.call-btn-2 p {
+text-decoration:none;
+	color:white;
+	font-size:9pt;
+	padding:9px 11px 8px 11px;
+	cursor:pointer;
+}
 nav ul li a{
 	text-decoration:none;
 	color:white;
@@ -254,10 +279,19 @@ nav ul li a{
 
 .phone p.call {
 	font-size:10pt;
+	float:right;
+	text-align:right;
+	width:100%;
+}
+
+.phone p.call-2 {
+	font-size:10pt;
 	float:left;
 	text-align:center;
 	width:100%;
 }
+
+
 
 .phone p b.red{
 		color:#9D212B;
@@ -266,12 +300,18 @@ nav ul li a{
 .phone img {
 	float:left;
 	margin-top:5px;
+	margin-left:15px;
 }
 .phone p.tel {
-	font-size:20pt;
+	font-size:17pt;
 	color:gray;
-	float:left;
+	float:right;
+	text-decoration:none;
+	text-align:right;
 	line-height:150%;
+	width:200px;
+	//border:1px green solid;
+	margin-left:0;
 }
 .phone p.tel > b {
 	color:black;
@@ -292,6 +332,11 @@ nav ul li a{
 
 .call-btn:hover p{
 	color:white;
+}
+.call-btn-2 {
+float:left;
+height:17px;
+//background:green;
 }
 
 .call-btn p {

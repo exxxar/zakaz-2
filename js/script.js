@@ -78,7 +78,7 @@ $(document).ready(function(){
 			$('nav ul li:nth-of-type(5) a').removeClass('i5');
 			$('nav ul li:nth-of-type(6) a').removeClass('i6');
 			$('nav ul li:nth-of-type(7) a').removeClass('i7');
-			//$('nav ul li:nth-of-type(8) a').removeClass('i8');
+			//$('.call-btn-2').removeClass('i8');
 			
 			if (h >= 0 && h < 1000)			
 				$('nav ul li:nth-of-type(1) a').addClass('i1');
