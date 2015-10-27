@@ -82,17 +82,17 @@ $(document).ready(function(){
 			
 			if (h >= 0 && h < 1000)			
 				$('nav ul li:nth-of-type(1) a').addClass('i1');
-			if (h >= 1000 && h < 2600)	
+			if (h >= 1000 && h < 2700)	
 				$('nav ul li:nth-of-type(2) a').addClass('i2');
-			if (h >= 2600 && h < 3800)	
+			if (h >= 2700 && h < 3900)	
 				$('nav ul li:nth-of-type(3) a').addClass('i3');
-			if (h >= 3800 && h < 6000)	
+			if (h >= 3900 && h < 6100)	
 				$('nav ul li:nth-of-type(4) a').addClass('i4');
-			if (h >= 6000 && h < 7500)
+			if (h >= 6100 && h < 7600)
 				$('nav ul li:nth-of-type(5) a').addClass('i5');
-			if (h >= 7500 && h < 9100)
+			if (h >= 7600 && h < 9200)
 				$('nav ul li:nth-of-type(6) a').addClass('i6');		
-			if (h >= 9100 && h < 12000)
+			if (h >= 9200 && h < 12000)
 				$('nav ul li:nth-of-type(7) a').addClass('i7');	
 			//if (h >= 10500 && h < 12000)
 			//	$('nav ul li:nth-of-type(8) a').addClass('i8');	
